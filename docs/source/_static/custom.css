@@ -1,0 +1,47 @@
+:root{
+--mdc-theme-primary: rgba(30,136,239,1);
+--mdc-theme-primary-light: rgba(106,183,255,1);
+--mdc-theme-primary-dark: rgba(0,92,178,1);
+}
+
+
+.highlight pre{
+    border: 1px solid #e3e3e3;
+    border-radius: 2px;
+    font-size: 75%;
+}
+
+.docutils.literal{
+    color: var(--mdc-theme-primary);
+    padding: 1px 4px;
+    margin: 0 -2px;
+    border-radius: 2px;
+}
+
+.viewcode-block:target {
+    background: #ffd;
+    border: 1px solid #e3e3b0;
+    border-radius: 2px;
+    padding: 10px !important;
+}
+
+a {
+    color: var(--mdc-theme-primary);
+}
+
+a.reference {
+    border-bottom: 1px dotted var(--mdc-theme-primary);
+}
+
+a.reference:hover {
+    border-bottom: 1px solid var(--mdc-theme-primary-dark);
+}
+
+a:hover {
+    color: var(--mdc-theme-primary-dark);
+}
+
+.body {
+    max-width: unset !important;
+}
+
