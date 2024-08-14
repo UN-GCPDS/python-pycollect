@@ -34,8 +34,8 @@ from .edfwriter import EDF, EDFChannel
 from .headers import DatexHeaderResponse, PhysiologicalData, HeaderHandler
 from .measures import WAVEFORMS_DICT, LABEL_TO_DICT, GROUPS_DICT
 
-from pandas import DataFrame, np
-
+import numpy as np
+from pandas import DataFrame
 
 ########################################################################
 class GEDecode:
